@@ -1,0 +1,6 @@
+.app__container {
+  align-items: center;
+  display: grid;
+  justify-items: center;
+  min-height: 100vh;
+}

@@ -1,0 +1,19 @@
+.spinner__container {
+  position: relative;
+}
+
+.spinner__label {
+  color: #333;
+  font-size: 34px;
+  left: 50%;
+  padding-left: 6px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.spinner__label::after {
+  color: #aaa;
+  content: '%';
+  font-size: 16px;
+}
