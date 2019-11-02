@@ -1,6 +1,6 @@
 [Online demo](https://vinicius-sabadim.github.io/wetransfer-assignment)
 
-# WeTransfer - Frontend Engineer Assignmet
+# WeTransfer - Frontend Engineer Assignment
 
 When uploading files on https://wetransfer.com you see our famous progress spinner. It grows and grows as it spins around, showing the percentage in the centre.
 
