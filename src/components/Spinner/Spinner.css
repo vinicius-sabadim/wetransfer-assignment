@@ -2,6 +2,22 @@
   position: relative;
 }
 
+.spinner--active .spinner__svg {
+  animation: spin 2s linear infinite;
+  transform-origin: 50%;
+}
+
+.spinner__barBackground {
+  fill: transparent;
+  stroke: #eee;
+}
+
+.spinner__bar {
+  fill: transparent;
+  stroke: #42a1ff;
+  stroke-linecap: round;
+}
+
 .spinner__label {
   color: #333;
   font-size: 34px;
@@ -16,4 +32,14 @@
   color: #aaa;
   content: '%';
   font-size: 16px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
