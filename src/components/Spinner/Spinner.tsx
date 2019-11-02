@@ -43,7 +43,9 @@ const Spinner: React.FC<SpinnerInterface> = ({
           cy={radius}
         />
       </svg>
-      <span className="spinner__label">{progress}</span>
+      <span className="spinner__label" data-testid="spinner-progress">
+        {progress}
+      </span>
     </div>
   )
 }
