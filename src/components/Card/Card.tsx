@@ -12,6 +12,7 @@ const Card: React.FC = () => {
   const [isActive, setIsActive] = useState(false)
   const [progress, setProgress] = useState(0)
 
+  // This useInterval is a hook found in the post https://overreacted.io/making-setinterval-declarative-with-react-hooks/
   useInterval(
     () => {
       // Simulating an update on the progress.
