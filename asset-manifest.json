@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/wetransfer-assignment/static/css/main.655011aa.chunk.css",
+    "main.js": "/wetransfer-assignment/static/js/main.e44613d7.chunk.js",
+    "main.js.map": "/wetransfer-assignment/static/js/main.e44613d7.chunk.js.map",
+    "runtime-main.js": "/wetransfer-assignment/static/js/runtime-main.5b42eade.js",
+    "runtime-main.js.map": "/wetransfer-assignment/static/js/runtime-main.5b42eade.js.map",
+    "static/js/2.f6847e83.chunk.js": "/wetransfer-assignment/static/js/2.f6847e83.chunk.js",
+    "static/js/2.f6847e83.chunk.js.map": "/wetransfer-assignment/static/js/2.f6847e83.chunk.js.map",
+    "index.html": "/wetransfer-assignment/index.html",
+    "precache-manifest.1ac847ae27d87748a2e9a802a84e7dc4.js": "/wetransfer-assignment/precache-manifest.1ac847ae27d87748a2e9a802a84e7dc4.js",
+    "service-worker.js": "/wetransfer-assignment/service-worker.js",
+    "static/css/main.655011aa.chunk.css.map": "/wetransfer-assignment/static/css/main.655011aa.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b42eade.js",
+    "static/js/2.f6847e83.chunk.js",
+    "static/css/main.655011aa.chunk.css",
+    "static/js/main.e44613d7.chunk.js"
+  ]
+}
