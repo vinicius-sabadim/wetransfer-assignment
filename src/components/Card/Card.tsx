@@ -9,7 +9,7 @@ import './Card.css'
 const DELAY = 100
 
 const Card: React.FC = () => {
-  const [isActive, setIsActive] = useState(false)
+  const [isUploading, setIsUploading] = useState(false)
   const [progress, setProgress] = useState(0)
 
   // This useInterval is a hook found in the post https://overreacted.io/making-setinterval-declarative-with-react-hooks/
@@ -20,22 +20,22 @@ const Card: React.FC = () => {
       const newValue = progress + percentage
       newValue >= 100 ? setProgress(100) : setProgress(newValue)
     },
-    isActive ? DELAY : null
+    isUploading ? DELAY : null
   )
 
   function startUpload() {
-    setIsActive(true)
+    setIsUploading(true)
   }
 
   function stopUpload() {
-    setIsActive(false)
+    setIsUploading(false)
     setProgress(0)
   }
 
   return (
     <div className="card__container">
-      <Spinner isActive={isActive} progress={progress} />
-      {isActive ? (
+      <Spinner isUploading={isUploading} progress={progress} />
+      {isUploading ? (
         <button className="card__button" onClick={stopUpload}>
           Stop
         </button>
