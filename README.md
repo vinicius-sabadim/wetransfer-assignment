@@ -10,7 +10,7 @@ Your goal is to recreate the spinner as a reusable web component and include sta
 
 ## Implementation notes
 
-- To simulate the upload of a file, there is a 200ms `setInterval`.
+- To simulate the upload of a file, there is a 100ms `setInterval`.
 - The percentage of progress when uploading is a random value.
 
 ## Usage
